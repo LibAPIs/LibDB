@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<organization>
+		<name>MClarkDev.com</name>
+		<url>https://tools.mclarkdev.com/tools</url>
+	</organization>
+
+	<groupId>com.mclarkdev.tools</groupId>
+	<artifactId>libdb</artifactId>
+	<version>PRERELEASE</version>
+	<packaging>jar</packaging>
+
+	<name>libdb</name>
+	<url>https://www.mclarkdev.com/tools/libdb</url>
+	<description>A generic database manager.</description>
+
+	<scm>
+		<url>https://git.mclarkdev.com/MClarkDev.com--Public/libdb.git</url>
+	</scm>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+
+	<build>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.1.0</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.1.1</version>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.mclarkdev.tools</groupId>
+			<artifactId>libobjectpooler</artifactId>
+			<version>PRERELEASE</version>
+		</dependency>
+	</dependencies>
+</project>
