@@ -92,7 +92,7 @@
 		<dependency>
 			<groupId>com.mclarkdev.tools</groupId>
 			<artifactId>libobjectpooler</artifactId>
-			<version>PRERELEASE</version>
+			<version>1.1</version>
 		</dependency>
 	</dependencies>
 </project>
