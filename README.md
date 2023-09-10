@@ -4,16 +4,17 @@ A simple helper library for managing connections and interactions with different
 
 This library will allow you to create multiple database interfaces, allowing the user to choose which one to use.
 
-## Macen Dependency
+## Maven Dependency
+
+Include the library in your project by adding the following dependency to your pom.xml
 
 ```
 <dependency>
 	<groupId>com.mclarkdev.tools</groupId>
 	<artifactId>libdb</artifactId>
-	<version>1.1</version>
+	<version>1.5.1</version>
 </dependency>
 ```
-
 ## Example
 
 Create an adapter interface containing all the methods required.
@@ -52,3 +53,6 @@ LibDB.loadAdapter(LibDBType.SQLITE, SQLiteDataAdapter.class);
 DBAdapter db = (DBAdapter) LibDB.newInstance(dbString);
 ```
 
+# License
+
+Open source & free for all. ❤

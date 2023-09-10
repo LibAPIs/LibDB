@@ -1,5 +1,8 @@
 package com.mclarkdev.tools.libdb;
 
+/**
+ * LibDB // LibDBType
+ */
 public enum LibDBType {
 
 	MYSQL("jdbc:mysql://.*"),
