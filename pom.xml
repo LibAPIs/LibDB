@@ -15,10 +15,6 @@
 	<url>https://git.mclarkdev.com/LibAPIs/LibDB.git</url>
 	<description>A simple helper library for managing connections and interactions with different database layers.</description>
 
-	<scm>
-		<url>https://git.mclarkdev.com/LibAPIs/LibDB.git</url>
-	</scm>
-
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
@@ -33,6 +29,24 @@
 			<url>https://about.mclarkdev.com/</url>
 		</developer>
 	</developers>
+
+	<scm>
+		<url>https://git.mclarkdev.com/LibAPIs/LibDB.git</url>
+	</scm>
+
+	<repositories>
+		<repository>
+			<id>gitea</id>
+			<url>https://git.mclarkdev.com/api/packages/LibAPIs/maven</url>
+		</repository>
+	</repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>gitea</id>
+			<url>https://git.mclarkdev.com/api/packages/LibAPIs/maven</url>
+		</repository>
+	</distributionManagement>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
