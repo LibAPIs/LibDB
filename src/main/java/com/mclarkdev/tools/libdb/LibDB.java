@@ -8,6 +8,8 @@ import java.util.Map;
  * 
  * A simple helper library for managing connections and interactions with
  * different database layers.
+ * 
+ * @author Matthew R. Clark (MClarkDev.com, 2021-2026)
  */
 public class LibDB {
 

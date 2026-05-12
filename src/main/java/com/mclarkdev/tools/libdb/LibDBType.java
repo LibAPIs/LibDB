@@ -2,6 +2,8 @@ package com.mclarkdev.tools.libdb;
 
 /**
  * LibDB // LibDBType
+ * 
+ * @author Matthew R. Clark (MClarkDev.com, 2021-2026)
  */
 public enum LibDBType {
 

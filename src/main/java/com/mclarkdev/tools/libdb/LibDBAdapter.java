@@ -8,6 +8,8 @@ import com.mclarkdev.tools.libobjectpooler.LibObjectPoolerController;
 
 /**
  * LibDB // LibDBAdapter
+ * 
+ * @author Matthew R. Clark (MClarkDev.com, 2021-2026)
  */
 public abstract class LibDBAdapter implements LibObjectPoolerController<Connection> {
 

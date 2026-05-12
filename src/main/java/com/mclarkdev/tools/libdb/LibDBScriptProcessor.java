@@ -2,6 +2,11 @@ package com.mclarkdev.tools.libdb;
 
 import java.util.ArrayList;
 
+/**
+ * LibDB // LibDBScriptProcessor
+ * 
+ * @author Matthew R. Clark (MClarkDev.com, 2021-2026)
+ */
 public class LibDBScriptProcessor {
 
 	public static String[] parseFile(String blob) {

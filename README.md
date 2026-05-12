@@ -12,7 +12,7 @@ Include the library in your project by adding the following dependency to your p
 <dependency>
 	<groupId>com.mclarkdev.tools</groupId>
 	<artifactId>libdb</artifactId>
-	<version>1.5.1</version>
+	<version>1.7.0</version>
 </dependency>
 ```
 ## Example
